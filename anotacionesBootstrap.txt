@@ -1,0 +1,62 @@
+container->tiene un ancho fijo
+container-fluid->ocupa todo el ancho
+
+container tien filas y columnas(12)
+col->(se reparte equitativamente entre columnas halla)
+col-(nnumero)<-> col-8 ->se ocupa la columna hasta 8 grilla(8columnas)(se reparte equitativamete)
+col-12 col-lg-3 -> (al inicio que ocupe 12) (pantalla grande (lg) que ocupe 3)
+col-sm ->(tamaño definida en 3 columnas)
+navbar navbar-dark bg-dark -> navbar
+navbar-nav ml-auto -> (navbar) (margin left automaticamente vaya a la izquierda)
+
+creando carousel
+data-pause="false" -> no se pausa el carrusel si el mause esta en la fgura
+#carousel{
+ position:relative;
+}
+id="overlay"
+#carousel .overlay{
+position:absolute ->para que el overlay se expanda por todo el carousel
+top,bottom,left,right:0 -> que no tenga espacio
+background-color:rgba(0,0,0,0,(transparencia))
+}
+col-md-6 -> a partir de dispositivos medianos que ocupen 6 columnas
+offset-md-6 ->columna tirado a la derecha.
+text-center text-md-right -> que el texto este centrado (y a los medianos cnetrado a la derecha).
+align-items-center -> centrado verticalmente.
+d-one d-md-block->(que no aparezca) (que aparezca a partir de los medianos)
+
+Botones
+class= btn btn-outline-light -> boton (se enciende cuando esta en el boton)
+type="button"
+.btn-platzi:hover{
+background-color:color
+}
+
+Cards
+col text-center text-uppercase
+mt-4 -> margin top 4
+mb-4 -> margin boton 4
+
+badges
+container-fluid
+pl-0 pr-0 ->padding left y rigth 0
+col-lg-6 -> que ocupe la mitad en dispositivos grandes
+formularios
+tooltip
+fixed-top-> el header nos acompaña en el scrolls
+
+Scrollspy en el body
+data-spy="scroll"
+data-target="#id" -> id donde se apunta
+data-offset="57"
+
+Modal
+
+
+
+
+
+
+
+
